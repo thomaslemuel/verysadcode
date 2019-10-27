@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: dosis, monospace;
+    color: black;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/585d932046c3c49fd7943ce9/1571364184042-DBMWBIXMYJR1TXWSDH23/ke17ZwdGBToddI8pDm48kLF6Wyq3_oJoaEKqP1fFn-F7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p4XabXLlNWpcJMv7FrN_NLPiJFU9KX89c9OAyd6rnmaHyI-qrncMpOm0KMv1gp_-g/web+bg1.jpg?format=2500w);
+  }
+  .topnav {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  .topnav h3 {
+    margin: 20px;
+    padding: 14px 16px;
+    width: 160px;
+
+  }
+  
+  .topnav a {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    float: none;
+    position: relative;
+    padding: 14px 30px;
+  }
+    
+  
+  .topnav a:hover {
+    color: grey;
+  }
+  
+  .topnav a.active {
+    color: black;
+  }
+  
+  .grid {
+    font-family: dosis, monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ad-1 {
+    width: 50%;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: dosis, monospace;
+  }
+  .ad-1 {
+    margin: 0;
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-out;
+  }
+  .ad-2 {    
+    width: 100%;
+    flex-grow: 1;
+    background-position: center;
+    text-align: center;
+    font-family: dosis, monospace;
+  }
+  .album {
+    background-image: url(background-image: url(https://images.squarespace-cdn.com/content/v1/585d932046c3c49fd7943ce9/1571363089921-RK0TPWFNE5YGEWXPHJCN/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/LEMUEL+COVER.jpg?format=1500w);
+    width: 20%;
+    height: 20%;
+  }
+  .copy {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 100px;
+    text-align: center;
+    
+  }
