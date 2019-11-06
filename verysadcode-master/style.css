@@ -37,39 +37,34 @@ body {
     color: black;
   }
   
-  .grid {
+  .grid { 
     font-family: dosis, monospace;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 50px;
+  }
+  .album img {
+    width: 35%;
+    height: 35%;
+    padding: 20px;
+  }
+  .vr img {
+    width: 40%;
+    height: 40%;
+    padding: 20px;
   }
   .ad-1 {
-    width: 50%;
-    flex-grow: 1;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    font-family: dosis, monospace;
+    color: antiquewhite;
+    padding: 20px;
   }
-  .ad-1 {
-    margin: 0;
-    transform: translateY(-10px);
-    transition: transform 0.3s ease-out;
-  }
-  .ad-2 {    
-    width: 100%;
-    flex-grow: 1;
-    background-position: center;
-    text-align: center;
-    font-family: dosis, monospace;
-  }
-  .album {
-    background-image: url(https://images.squarespace-cdn.com/content/v1/585d932046c3c49fd7943ce9/1571363089921-RK0TPWFNE5YGEWXPHJCN/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/LEMUEL+COVER.jpg?format=1500w);
-    width: 20%;
-    height: 20%;
+  .ad-2 {
+    color: antiquewhite;
+    padding: 20px;
   }
   .copy {
+    color: antiquewhite;
     display: flex;
     justify-content: center;
     margin: 0;
